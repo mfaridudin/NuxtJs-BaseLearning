@@ -12,5 +12,18 @@ export default defineNuxtConfig({
     public: {
       appName: 'Selamat Datang di Belajar Nuxt Js - Pemula',
     }
+  },
+
+  // seo meta tags
+  app: {
+    head: {
+      title: 'Belajar Nuxt Js - Pemula',
+      htmlAttrs: {
+        lang: 'en',
+      },
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      ],
+    },
   }
 })

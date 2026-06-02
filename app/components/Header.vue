@@ -2,8 +2,12 @@
     <header class="header">
         <h2>Ini Header</h2>
         <nav class="nav">
-            <span>Home</span>
-            <span>About</span>
+            <span>
+                <NuxtLink to="/">Home</NuxtLink>
+            </span>
+            <span>
+                <NuxtLink to="/about">About</NuxtLink>
+            </span>
         </nav>
     </header>
 </template>
