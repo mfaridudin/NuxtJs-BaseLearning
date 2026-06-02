@@ -9,6 +9,9 @@
                 <NuxtLink to="/about">About</NuxtLink>
             </span>
             <span>
+                <NuxtLink to="/fetching">Data Fetching</NuxtLink>
+            </span>
+            <span>
                 <NuxtLink to="/state">State Management</NuxtLink>
             </span>
         </nav>
