@@ -10,6 +10,12 @@
 </template>
 
 <script setup lang="ts">
+definePageMeta({
+    pageTransition: {
+        name: 'rotate',
+    },
+})
+
 useHead({
     title: 'About Page',
     meta: [
