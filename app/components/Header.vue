@@ -8,6 +8,9 @@
             <span>
                 <NuxtLink to="/about">About</NuxtLink>
             </span>
+            <span>
+                <NuxtLink to="/state">State Management</NuxtLink>
+            </span>
         </nav>
     </header>
 </template>
