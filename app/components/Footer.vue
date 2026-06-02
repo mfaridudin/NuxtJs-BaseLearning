@@ -1,6 +1,6 @@
 <template>
     <footer class="footer">
-        <p>&copy; 2026 ExploreEarth - Nuxt 4 Base Learning</p>
+        <p>&copy; 2026 Belajar - Nuxt 4 Base Learning</p>
     </footer>
 </template>
 
