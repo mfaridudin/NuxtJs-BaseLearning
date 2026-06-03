@@ -10,6 +10,12 @@ export default defineNuxtConfig({
   //  mengaktifkan devtools untuk debugging
   devtools: { enabled: true },
 
+  routeRules: {
+    '/about': { prerender: true },
+
+    '/fetching': { ssr: false }
+  },
+
   // setup runtime config env
   runtimeConfig: {
     public: {
