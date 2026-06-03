@@ -18,6 +18,9 @@
                 <NuxtLink to="/fetching-fetch">useFetch</NuxtLink>
             </span>
             <span>
+                <NuxtLink to="/fetching-lazy">Lazy Load</NuxtLink>
+            </span>
+            <span>
                 <NuxtLink to="/state">State Management</NuxtLink>
             </span>
         </nav>
