@@ -9,7 +9,10 @@
                 <NuxtLink to="/about">About</NuxtLink>
             </span>
             <span>
-                <NuxtLink to="/fetching">Data Fetching</NuxtLink>
+                <NuxtLink to="/fetching">useAsyncData</NuxtLink>
+            </span>
+              <span>
+                <NuxtLink to="/fetching/paris">Data Fetching</NuxtLink>
             </span>
             <span>
                 <NuxtLink to="/state">State Management</NuxtLink>
