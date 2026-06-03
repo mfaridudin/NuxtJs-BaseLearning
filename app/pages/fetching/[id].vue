@@ -1,7 +1,5 @@
 <template>
     <div class="container">
-        <NuxtLink to="/" class="back-btn">← Kembali</NuxtLink>
-
         <div v-if="status === 'pending'" class="loading">
             ⏳ Sedang mengumpulkan info destinasi dan cuaca...
         </div>

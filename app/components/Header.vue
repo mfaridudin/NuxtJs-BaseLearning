@@ -11,8 +11,11 @@
             <span>
                 <NuxtLink to="/fetching">useAsyncData</NuxtLink>
             </span>
-              <span>
+            <span>
                 <NuxtLink to="/fetching/paris">Data Fetching</NuxtLink>
+            </span>
+            <span>
+                <NuxtLink to="/fetching-fetch">useFetch</NuxtLink>
             </span>
             <span>
                 <NuxtLink to="/state">State Management</NuxtLink>

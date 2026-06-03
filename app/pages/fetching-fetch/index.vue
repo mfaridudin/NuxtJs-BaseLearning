@@ -1,9 +1,9 @@
 <template>
     <div class="container">
-        <h2>contoh useAsyncData</h2>
+        <h2>Contoh Simple useFetch</h2>
 
         <div v-if="status === 'pending'" class="loading">
-            Sedang mengambil data dari API...
+            useFetch sedang mengambil data...
         </div>
 
         <div v-else-if="error" class="error-box">
@@ -11,7 +11,7 @@
         </div>
 
         <div v-else class="list-box">
-            <h3>Daftar Destinasi Wisata:</h3>
+            <h3>Daftar Destinasi Wisata (via useFetch):</h3>
             <ul>
                 <li v-for="item in data.data" :key="item.id">
                     <strong>{{ item.name }}</strong> ({{ item.location }})
@@ -22,10 +22,7 @@
 </template>
 
 <script setup>
-
-const { data, status, error } = await useAsyncData('ambil-semua-wisata', () => {
-    return $fetch('/api/destinations')
-})
+const { data, status, error } = await useFetch('/api/destinations')
 </script>
 
 <style scoped>
@@ -56,10 +53,10 @@ const { data, status, error } = await useAsyncData('ambil-semua-wisata', () => {
 }
 
 .list-box {
-    background: #f8fafc;
+    background: #f0fdf4;
     padding: 20px;
     border-radius: 8px;
-    border: 1px solid #e2e8f0;
+    border: 1px solid #bbf7d0;
 }
 
 ul {
