@@ -1,4 +1,7 @@
 export default defineNuxtConfig({
+  extends: [
+    './base-layer'
+  ],
   // mengaktifkan struktur folder nuxt 4
   future: {
     compatibilityVersion: 4,

@@ -23,6 +23,9 @@
             <span>
                 <NuxtLink to="/state">State Management</NuxtLink>
             </span>
+            <span>
+                <NuxtLink to="/testing-layer">Layer</NuxtLink>
+            </span>
         </nav>
     </header>
 </template>
